@@ -45,7 +45,7 @@ void bfs(int start) {
 		}
 	}
 }
-
+출처:
 https://better-tomorrow.tistory.com/entry/DFS-BFS-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
 https://hyunah-home.tistory.com/6
 */
@@ -104,12 +104,11 @@ void bfs(int s)
 
 int main()
 {
-
+	int x, y;
 	cin >> N >> M >> V;
 
 	for (int i = 0; i < M; i++)//양방향
 	{
-		int x, y;
 		cin >> x >> y;
 		graph[x].push_back(y);
 		graph[y].push_back(x);
@@ -119,6 +118,7 @@ int main()
 	}
 	dfs(V);
 	std::cout << endl;
-	reset();
+	memset(visited, 0, sizeof(visited));
+	//reset();
 	bfs(V);
 }
