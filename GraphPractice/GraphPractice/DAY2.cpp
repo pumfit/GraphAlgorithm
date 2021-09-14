@@ -1,5 +1,5 @@
 /*
-
+DAY 2 바이러스
 */
 #include<iostream>
 #include<vector>
