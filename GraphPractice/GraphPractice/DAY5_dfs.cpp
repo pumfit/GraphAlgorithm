@@ -1,9 +1,6 @@
 #include <iostream>
-
 #include <string>
-
 #include <algorithm>
-
 #include <vector>
 
 using namespace std;
@@ -55,27 +52,20 @@ void dfs(int x, int y)
 {
 
 	visited[x][y] = 1;
-
 	sum++;
-
 	for (int i = 0; i < 4; i++)
-
 	{
 
 		int nx = x + dx[i];
-
 		int ny = y + dy[i];
 
 		if (nx >= 0 && nx < N&&ny >= 0 && ny < N)
-
 		{
 
 			if (map[nx][ny] == '1'&&visited[nx][ny] == 0)
-
 			{
 
 				visited[nx][ny] = cnt;
-
 				dfs(nx, ny);
 
 			}
@@ -95,19 +85,14 @@ int main() {
 	vector<int> v;
 
 	for (int i = 0; i < N; i++)
-
 	{
 
 		string s;
-
 		cin >> s;
 
 		for (int j = 0; j < N; j++)
-
 		{
-
 			map[i][j] = s[j];
-
 		}
 
 	}
@@ -115,28 +100,20 @@ int main() {
 
 
 	for (int i = 0; i < N; i++)
-
 	{
 
 		for (int j = 0; j < N; j++)
-
 		{
 
 			if (map[i][j] == '1'&&visited[i][j] == 0)
-
 			{
 
 				dfs(i, j);
-
 				cnt++;
-
 				v.push_back(sum);
-
 				sum = 0;
 
 			}
-
-
 
 		}
 
