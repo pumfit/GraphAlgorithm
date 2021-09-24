@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DAY4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DAY5_dfs.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DAY6.cpp">
+    <ClCompile Include="DAY7_states.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
