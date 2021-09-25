@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DAY7_states.cpp">
+    <ClCompile Include="DAY8cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
