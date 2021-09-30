@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DAY9.cpp">
+    <ClCompile Include="DAY10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DAY11.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
